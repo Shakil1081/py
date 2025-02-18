@@ -1,0 +1,29 @@
+{% extends 'master.html' %}
+{% block content %}
+<div class="container mt-5 shadow-sm border" style="max-width: 400px;">
+    <div class="login-container shadow-sm p-3">
+        <h2>Login</h2>
+        <p class="text-center">Enter your credentials</p>
+        <form action="" method="post">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username" required />
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required />
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required />
+            </div>
+            <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-danger btn-md">Login</button>
+            </div>
+            <div class="mt-3 text-center">
+                <p>Don't have an account? <a href="#" class="text-decoration-none">Register here</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock content %}
