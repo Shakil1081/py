@@ -1,0 +1,44 @@
+ history
+    1  cd Documents
+    2  cd Django\ project\ Robin/
+    3  python -m venv env
+    4  source env \Scripts\activate
+    5  source env /Scripts/activate
+    6  env/Scripts/activate
+    7  pip install django
+    8  env\Scripts\activate
+    9   env\Scripts\activate
+   10  bash: envScriptsactivate: command not found
+   11  env\Scripts\activate
+   12  env \Scripts\activate
+   13  ls
+   14  python -m venv emv
+   15  emv \Scripts\activate
+   16  python -m venv env
+   17  emv \Scripts\activate
+   18  emv \Scripts\activate
+   19*
+   20*
+   21  python -m venv env
+   22  source env/Scripts/activate
+   23  pip install django
+   24  django-admin srartproject test
+   25  django-admin srartproject tes
+   26  django-admin startproject test
+   27  django-admin startproject newproject
+   28  cs newproject/
+   29  django-admin start testapp
+   30  django-admin startapp testapp
+   31  cd myproject
+   32  cd newproject
+   33  django-admin startapp testapp
+   34  python manage.py runserver
+
+   46  ls
+   47  python manage.py makemigrations
+   48  python manage.py migrate
+   49  python manage.py creatsuperuser
+   50  python manage.py creatsuperusers
+   51  python manage.py createsuperuser
+   52  python manage.py runserver
+   53  history
